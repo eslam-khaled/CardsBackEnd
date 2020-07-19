@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DTOs\EPLHouse.Cards.DTOs.csproj" />
+    <ProjectReference Include="..\EPLHouse.Test.DataAccess\EPLHouse.Cards.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
